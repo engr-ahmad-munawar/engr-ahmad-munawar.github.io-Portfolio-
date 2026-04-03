@@ -3,14 +3,22 @@ layout: page
 title: About
 ---
 
-# About Me 👨‍💻
+<div class="hero" style="background:#2575fc; color:#fff; padding:3rem 2rem; border-radius:15px; text-align:center;">
+  <h1>About Me 👨‍💻</h1>
+  <p>Web developer | Tech creator | Lifelong learner</p>
+</div>
 
-I’m Ahmed Munawar – web dev, designer, and lifelong learner.
+<h2>My Skills 💡</h2>
+<ul>
+  <li><strong>Frontend:</strong> HTML, CSS, JS, Tailwind, React</li>
+  <li><strong>Backend:</strong> Node.js, Express, MongoDB</li>
+  <li><strong>Deployment:</strong> GitHub Pages, Netlify, Vercel</li>
+</ul>
 
-## Skills
-- **Frontend:** HTML, CSS, JS, Tailwind, React
-- **Backend:** Node.js, Express, MongoDB
-- **Deployment:** GitHub Pages, Netlify, Vercel
+<h2>My Philosophy</h2>
+<p>Code is art. Every project tells a story, every line matters.</p>
 
-## Philosophy
-Code = Art. Each project tells a story.
+<div class="social">
+  <a href="https://github.com/engr-ahmad-munawar" target="_blank">GitHub</a> |
+  <a href="https://www.linkedin.com/in/engr-ahmad-munawar" target="_blank">LinkedIn</a>
+</div>
