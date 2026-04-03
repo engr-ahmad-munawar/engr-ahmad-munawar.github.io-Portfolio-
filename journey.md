@@ -5,13 +5,19 @@ title: My Journey
 
 # My Journey 🛤️
 
-Started coding in 2020 and never looked back. Every bug, project, and late-night session shaped me.  
+### 2020
+First HTML/CSS projects
 
-### Milestones
-- 2020: First HTML/CSS projects
-- 2021: Built JS mini apps
-- 2022: Learned React & Tailwind
-- 2023: Deployed multiple websites on GitHub Pages
-- 2024+: Exploring backend & full-stack solutions
+### 2021
+JS mini apps
 
-> “Every line of code tells a story.” – That’s my mantra.
+### 2022
+React & Tailwind exploration
+
+### 2023
+Deployed websites on GitHub Pages
+
+### 2024+
+Backend & full-stack learning
+
+> "Every line of code tells a story." – Ahmed Munawar
