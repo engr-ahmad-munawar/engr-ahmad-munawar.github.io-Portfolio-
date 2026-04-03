@@ -1,17 +1,26 @@
 ---
-layout: post
-title: "First Post"
-date: 2026-04-03
+layout: page
+title: Posts
 ---
 
-Hello world! This is my first Markdown post on my portfolio blog.  
+# Blog Posts 📝
 
-I can include **images** too:  
+{% if site.posts.size > 0 %}
+<div class="posts-grid">
+{% for post in site.posts %}
+<div class="post-card">
+- [**{{ post.title }}**]({{ post.url }})  
+  _{{ post.date | date: "%b %-d, %Y" }}_  
+  {{ post.excerpt | truncatewords: 25 }}
+</div>
+{% endfor %}
+</div>
+{% else %}
+No posts yet… stay tuned!
+{% endif %}
 
-![Sample Image](https://via.placeholder.com/150)
+---
 
-And text formatting like **bold**, *italic*, and lists:
-
-- Item 1
-- Item 2
-- Item 3
+To add a post:
+1. `New File → _posts → YYYY-MM-DD-title.md`
+2. Example: `_posts/2026-04-03-first-post.md`
