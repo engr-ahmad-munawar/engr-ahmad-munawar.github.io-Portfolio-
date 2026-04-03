@@ -1,20 +1,13 @@
 ---
+layout: home
 title: Home
 ---
 
-# 👋 Welcome to My Portfolio
+# Welcome to My Portfolio
 
-Hi, I'm Ahmed — Developer & Learner 🚀  
+Hi, I’m **Ahmed Munawar**!  
+Check out the pages below:
 
-## Navigation
-- [About Me](/about)
+- [About](/about)
 - [My Journey](/journey)
-- [Blog Posts](/blog)
-
----
-
-## 📝 Latest Posts
-
-{% for post in site.posts %}
-- [{{ post.title }}]({{ post.url }})
-{% endfor %}
+- [Posts](/posts)
