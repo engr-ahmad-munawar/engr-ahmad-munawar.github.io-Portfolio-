@@ -3,8 +3,8 @@ layout: default
 title: Blog
 ---
 
-<h1>My Blog 📝</h1>
-<p>Click the button below to create a new post directly on GitHub:</p>
+<h1 style="color:#00bfff;">My Blog 📝</h1>
+<p>Click below to create a new post directly on GitHub:</p>
 
 <a href="https://github.com/engr-ahmad-munawar/engr-ahmad-munawar.github.io/new/main/_posts" target="_blank">
   <button>New Post ➕</button>
