@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "From Failure to Focus: My ECAT Comeback Story"
+title: "second-post"
 date: 2026-04-02
 permalink: /first-post/
 ---
