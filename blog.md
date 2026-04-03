@@ -1,21 +1,18 @@
+
 ---
 layout: default
-title: Blog
-permalink: /blog/
+title: My Blog
 ---
 
-# 🔥 My Blog
+# Recent Posts
 
-<a href="{{ site.baseurl }}/create-post/" class="create-btn">
-  + Create Post
-</a>
-
----
-
-{% for post in site.posts %}
-
-## [{{ post.title }}]({{ site.baseurl }}{{ post.url }})
-
-📅 {{ post.date | date: "%B %d, %Y" }}
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      <span>{{ post.date | date: "%B %d, %Y" }}</span>
+    </li>
+  {% endfor %}
+</ul>
 
 
