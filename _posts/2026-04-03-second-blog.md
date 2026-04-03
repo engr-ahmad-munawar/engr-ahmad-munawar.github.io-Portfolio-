@@ -1,12 +1,12 @@
 
-
 ---
-<!-- Your content will go here later -->
----
-layout: post
-title: "My UET Admission Journey: From Maths to Computer Engineering"
+layout: default
+title: "From Failure to Focus: My ECAT Comeback Story Part 2"
+permalink: /second-blog/
 date: 2026-04-03
 ---
+
+Your blog content goes here...
 
 ## 🚀 Introduction
 
