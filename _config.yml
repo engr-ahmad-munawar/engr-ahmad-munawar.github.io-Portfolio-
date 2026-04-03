@@ -1,10 +1,18 @@
-title: Ahmed Munawar Portfolio
-email: your-email@example.com
+title: Ahmed Munawar Portfolio 🚀
+email: hello@ahmedmunawar.com
 description: >-
-  My personal portfolio blog
+  Full-stack developer, designer, and tech enthusiast sharing projects, posts, and insights.
 baseurl: "" 
 url: "https://engr-ahmad-munawar.github.io"
 theme: jekyll-theme-slate
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate          # For paginated posts
 permalink: /:title/
+markdown: kramdown
+kramdown:
+  input: GFM
+paginate: 5
+paginate_path: "/posts/page:num/"
