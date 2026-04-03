@@ -7,7 +7,7 @@ permalink: /second-post/
 
 Blog content starts here...
 
-title:"From Failure to Focus: My ECAT Comeback story"
+#                                        "My Porgress:Moving Forward"
 
 ## 🚀 Introduction
 
