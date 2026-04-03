@@ -1,10 +1,10 @@
 title: Ahmed Portfolio
-description: My Personal Blog & Portfolio
+description: My Portfolio Blog
 
-url: "https://yourusername.github.io"
+url: "https://engr-ahmad-munawar.github.io"
 baseurl: ""
 
-remote_theme: pages-themes/contrast@v1.0.0
+remote_theme: pages-themes/contrast
 
 plugins:
   - jekyll-remote-theme
