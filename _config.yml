@@ -1,7 +1,6 @@
-title: Ahmed Munawar Portfolio 🚀
+title: Ahmed Munawar Portfolio
 email: hello@ahmedmunawar.com
-description: >-
-  Full-stack dev sharing projects, blog posts, and tech adventures.
+description: "Computer Engineering student sharing blog, journey, and projects"
 baseurl: ""
 url: "https://engr-ahmad-munawar.github.io"
 theme: jekyll-theme-slate
@@ -11,8 +10,8 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
 permalink: /:title/
+paginate: 5
+paginate_path: "/blog/page:num/"
 markdown: kramdown
 kramdown:
   input: GFM
-paginate: 5
-paginate_path: "/posts/page:num/"
