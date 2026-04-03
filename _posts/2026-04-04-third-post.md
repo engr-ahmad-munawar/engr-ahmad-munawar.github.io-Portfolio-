@@ -2,7 +2,7 @@
 layout: post
 title: "third Blog"  
 permalink: /third-blog/
-date: 2026-04-04
+date: 2026-04-03
 ---
 #                                "The surprise Switch:From Electrical to Computer Engineering"
 # The Day Everything Changed: A 600-Word Journey
