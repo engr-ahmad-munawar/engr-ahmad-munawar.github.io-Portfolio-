@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "first-post"
-date: 2026-04-02
+date: 2026-04-01
 permalink: /first-post/
 ---
 #                                  "My Failure to Focus:My ECAT Comeback Story"
