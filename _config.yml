@@ -1,15 +1,15 @@
 title: Ahmed Munawar Portfolio 🚀
 email: hello@ahmedmunawar.com
 description: >-
-  Full-stack developer, designer, and tech enthusiast sharing projects, posts, and insights.
-baseurl: "" 
+  Full-stack dev sharing projects, blog posts, and tech adventures.
+baseurl: ""
 url: "https://engr-ahmad-munawar.github.io"
 theme: jekyll-theme-slate
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-paginate          # For paginated posts
+  - jekyll-paginate
 permalink: /:title/
 markdown: kramdown
 kramdown:
