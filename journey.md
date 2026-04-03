@@ -1,14 +1,12 @@
----
+**---
+layout: page
 title: My Journey
 ---
 
-# My Journey
+My journey started in 2020, and I’ve been coding, designing, and creating ever since.  
 
-## 2024
-Started learning coding.
+Some highlights so far:
 
-## 2025
-Built projects and improved skills.
-
-## 2026
-Creating portfolio and blog.
+- Learned HTML, CSS, JS
+- Built mini projects
+- Deployed websites on GitHub Pages**
