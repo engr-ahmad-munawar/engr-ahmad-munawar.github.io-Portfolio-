@@ -1,17 +1,13 @@
 title: Ahmed Munawar Portfolio
-email: hello@ahmedmunawar.com
-description: "Computer Engineering student sharing blog, journey, and projects"
-baseurl: ""
-url: "https://engr-ahmad-munawar.github.io"
-theme: jekyll-theme-slate
+email: your-email@example.com
+description: My uni journey & blog
+baseurl: "" # leave blank for GitHub Pages root
+url: "https://YOURUSERNAME.github.io"
+
+theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-paginate
-permalink: /:title/
-paginate: 5
-paginate_path: "/blog/page:num/"
+
 markdown: kramdown
-kramdown:
-  input: GFM
+highlighter: rouge
