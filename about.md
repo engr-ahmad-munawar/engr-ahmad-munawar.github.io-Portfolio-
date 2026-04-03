@@ -1,12 +1,11 @@
 ---
 layout: default
-title: Home
+title: About
 ---
 
-# Welcome to My Portfolio 🚀
+## About Me
 
-Check out these sections:
+Hey, I’m a Computer Engineering student diving into code, life, and caffeine.  
+I build stuff, write stuff, and occasionally debug my own thoughts.  
 
-- [Blog](/blog)
-- [About](/about)
-- [My Journey](/journey)
+Dark theme vibes included. 🌌
