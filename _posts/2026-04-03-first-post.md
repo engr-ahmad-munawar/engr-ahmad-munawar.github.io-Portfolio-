@@ -1,21 +1,15 @@
 ---
-layout: default
+layout: post
 title: "My First Post"
 date: 2026-04-03
 ---
 
-# 🚀 My First Blog
+# Welcome to My Blog
 
-This is my first post.
-
-## 🖼️ Add Image
-
-![Sample Image](https://via.placeholder.com/600)
-
-## ✨ Content
-You can write anything here:
+You can write:
 - Text
-- Images
-- Code
+- Images  
+  `![Sample](https://via.placeholder.com/600)`  
+- Code snippets
 
-🔥 Welcome to my blog system!
+🔥 This is my first post!
