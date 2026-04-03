@@ -1,10 +1,11 @@
-
 ---
 layout: default
-title: "From Failure to Focus: My ECAT Comeback Story Part 2"
-permalink: /second-blog/
-date: 2026-04-03
+title: "From Failure to Focus: My ECAT Comeback Story"
+date: 2026-04-02
+permalink: /first-post/
 ---
+
+Blog content starts here...
 
 Your blog content goes here...
 
