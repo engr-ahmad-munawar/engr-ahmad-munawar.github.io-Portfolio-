@@ -1,28 +1,32 @@
 /* Body & Layout */
 body.dark { background:#121212; color:#eee; font-family:'Segoe UI',sans-serif; margin:0; padding:0; }
 .layout { display:flex; min-height:100vh; }
-.sidebar { width:240px; padding:2rem; background:#1e1e1e; border-right:1px solid #333; position:sticky; top:0; height:100vh; }
-.sidebar h2 { text-align:center; margin:1rem 0; }
-.sidebar .profile-pic img { border-radius:50%; width:120px; height:120px; display:block; margin:0 auto 1rem; }
+.sidebar { width:240px; padding:2rem; background:#1a1a1a; border-right:2px solid #ff0000; position:sticky; top:0; height:100vh; }
+.sidebar h2 { text-align:center; margin:1rem 0; color:#00bfff; }
+.sidebar .profile-pic img { border-radius:50%; width:120px; height:120px; display:block; margin:0 auto 1rem; border:2px solid #ff0000; }
 .sidebar nav ul { list-style:none; padding:0; }
 .sidebar nav li { margin:1rem 0; }
-.sidebar nav a { color:#1e90ff; text-decoration:none; transition:0.3s; }
-.sidebar nav a:hover { color:#00bfff; }
+.sidebar nav a { color:#00bfff; text-decoration:none; transition:0.3s; font-weight:bold; }
+.sidebar nav a:hover { color:#ff0000; }
 
 /* Main content */
 .main-content { flex:1; padding:3rem; }
 
 /* Buttons */
-button { padding:0.5rem 1rem; border:none; border-radius:5px; cursor:pointer; background:#1e90ff; color:#fff; transition:0.3s; }
+button { padding:0.5rem 1rem; border:none; border-radius:5px; cursor:pointer; background:#ff0000; color:#fff; font-weight:bold; transition:0.3s; }
 button:hover { background:#00bfff; }
 
-/* Hero / Cards / Sections */
-.hero { text-align:center; margin-bottom:2rem; }
-.projects-grid, .posts-grid { display:grid; gap:1.5rem; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); }
-.project-card, .post-card { background:#1e1e1e; padding:1.5rem; border-radius:15px; box-shadow:0 5px 20px rgba(0,0,0,0.4); transition:0.3s; }
-.project-card:hover, .post-card:hover { transform:translateY(-10px) scale(1.03); box-shadow:0 15px 30px rgba(0,0,0,0.6); }
+/* Hero / Cards */
+.hero { text-align:center; margin-bottom:2rem; background:#1a1a1a; padding:3rem; border-radius:15px; border:2px solid #00bfff; }
+.hero h1 { color:#ff0000; font-size:3rem; }
+.hero p { color:#00bfff; font-size:1.25rem; }
 
-/* Timeline for My Journey */
-.timeline { border-left:3px solid #1e90ff; padding-left:2rem; margin-top:1rem; }
+/* Project & Post Cards */
+.projects-grid, .posts-grid { display:grid; gap:1.5rem; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); }
+.project-card, .post-card { background:#1a1a1a; padding:1.5rem; border-radius:15px; border:2px solid #ff0000; box-shadow:0 5px 20px rgba(255,0,0,0.3); transition:0.3s; }
+.project-card:hover, .post-card:hover { transform:translateY(-10px) scale(1.03); border-color:#00bfff; box-shadow:0 15px 30px rgba(0,191,255,0.4); }
+
+/* Timeline for Journey */
+.timeline { border-left:3px solid #00bfff; padding-left:2rem; margin-top:1rem; }
 .timeline-item { margin:2rem 0; position:relative; }
-.timeline-item::before { content:""; position:absolute; left:-11px; top:0; width:20px; height:20px; background:#1e90ff; border-radius:50%; }
+.timeline-item::before { content:""; position:absolute; left:-11px; top:0; width:20px; height:20px; background:#ff0000; border-radius:50%; }
