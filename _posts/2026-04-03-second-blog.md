@@ -1,8 +1,8 @@
 ---
 layout: default
-title: "first_post"
+title: "second_post"
 date: 2026-04-03
-permalink: /first-post/
+permalink: /second-post/
 ---
 
 Blog content starts here...
