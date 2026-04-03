@@ -3,7 +3,7 @@
 layout: post
 title: "From Failure to Focus: My ECAT Comeback Story"
 parmalink: /first blog/
-date: 2026-04-03
+date: 2026-04-02
 ---
 
 
