@@ -12,18 +12,18 @@ title: Home
 
 <!-- Featured Projects -->
 <h2 style="margin-top:3rem;">Featured Projects 💎</h2>
-<div class="projects-grid" style="display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:1.5rem; margin:2rem 0;">
-  <div class="project-card" style="padding:1.5rem; border-radius:15px; box-shadow:0 5px 20px rgba(0,0,0,0.1); transition:0.3s;">
+<div class="projects-grid">
+  <div class="project-card">
     <h3>Portfolio Website</h3>
     <p>Built with Jekyll & GitHub Pages</p>
     <a href="#">View Project →</a>
   </div>
-  <div class="project-card" style="padding:1.5rem; border-radius:15px; box-shadow:0 5px 20px rgba(0,0,0,0.1); transition:0.3s;">
+  <div class="project-card">
     <h3>Mini Game App</h3>
     <p>JS + HTML5 Canvas</p>
     <a href="#">View Project →</a>
   </div>
-  <div class="project-card" style="padding:1.5rem; border-radius:15px; box-shadow:0 5px 20px rgba(0,0,0,0.1); transition:0.3s;">
+  <div class="project-card">
     <h3>Blog CMS</h3>
     <p>Markdown-powered blog</p>
     <a href="#">View Project →</a>
@@ -32,7 +32,7 @@ title: Home
 
 <!-- Quick Links -->
 <h2>Quick Links 🔗</h2>
-<ul style="margin-bottom:2rem;">
+<ul>
   <li><a href="/about">About Me</a></li>
   <li><a href="/journey">My Journey</a></li>
   <li><a href="/posts">Posts</a></li>
@@ -40,7 +40,7 @@ title: Home
 
 <!-- Social Icons -->
 <h2>Connect With Me</h2>
-<div class="social" style="margin-bottom:2rem;">
+<div class="social">
   <a href="https://github.com/engr-ahmad-munawar" target="_blank">GitHub</a> |
   <a href="https://www.linkedin.com/in/engr-ahmad-munawar" target="_blank">LinkedIn</a> |
   <a href="mailto:hello@ahmedmunawar.com">Email</a>
