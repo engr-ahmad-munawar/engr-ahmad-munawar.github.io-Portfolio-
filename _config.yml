@@ -1,14 +1,13 @@
 title: Ahmed Portfolio
 description: My Portfolio Blog
-
 url: "https://engr-ahmad-munawar.github.io"
 baseurl: ""
 
 remote_theme: pages-themes/contrast
 
 plugins:
-  - jekyll-remote-theme
   - jekyll-feed
+  - jekyll-remote-theme
 
 permalink: /:title/
 
