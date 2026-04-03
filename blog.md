@@ -1,29 +1,27 @@
 ---
+layout: default
 title: Blog
 ---
 
-# My Blog
+<h1>My Blog 📝</h1>
+<p>Click the button below to create a new post directly on GitHub:</p>
 
-## 📝 Create New Post
-> Click here to create a new post:  
-> [➕ Add Post](https://github.com/engr-ahmad-munawar/engr-ahmad-munawar.github.io/new/main/_posts)  
+<a href="https://github.com/engr-ahmad-munawar/engr-ahmad-munawar.github.io/new/main/_posts" target="_blank">
+  <button>New Post ➕</button>
+</a>
 
-> **Tip:** Name file like `YYYY-MM-DD-title.md`  
-> Add front matter:  
-> ```
-> ---
-> layout: post
-> title: "Post Title"
-> date: 2026-04-03
-> ---
-> ```
-> Write content in Markdown below.
+<hr>
 
----
-
-## All Posts
-
+{% if site.posts.size > 0 %}
+<div class="posts-grid">
 {% for post in site.posts %}
-### [{{ post.title }}]({{ post.url }})
-- {{ post.date | date: "%B %d, %Y" }}
+<div class="post-card">
+- [**{{ post.title }}**]({{ post.url }})  
+  _{{ post.date | date: "%b %-d, %Y" }}_  
+  {{ post.excerpt | truncatewords: 25 }}
+</div>
 {% endfor %}
+</div>
+{% else %}
+<p>No posts yet… stay tuned!</p>
+{% endif %}
