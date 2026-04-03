@@ -1,46 +1,36 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>{{ page.title }}</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <style>
-    body {
-      font-family: Arial;
-      margin: 0;
-      padding: 0;
-    }
-    header {
-      background: black;
-      color: white;
-      padding: 15px;
-    }
-    nav a {
-      color: white;
-      margin-right: 15px;
-      text-decoration: none;
-    }
-    main {
-      padding: 20px;
-    }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{ page.title }} | {{ site.title }}</title>
+<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
+<body class="dark">
 
-<body>
+<div class="layout">
 
-<header>
-  <h2>{{ site.title }}</h2>
-  <nav>
-    {% for item in site.nav %}
-      <a href="{{ item.link }}">{{ item.name }}</a>
-    {% endfor %}
-  </nav>
-</header>
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <div class="profile-pic">
+      <img src="https://via.placeholder.com/120" alt="Ahmed Munawar">
+    </div>
+    <h2>Ahmed Munawar</h2>
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/journey">My Journey</a></li>
+        <li><a href="/blog">Blog</a></li>
+      </ul>
+    </nav>
+  </aside>
 
-<main>
-  {{ content }}
-</main>
+  <!-- Main Content -->
+  <main class="main-content">
+    {{ content }}
+  </main>
 
+</div>
 </body>
 </html>
