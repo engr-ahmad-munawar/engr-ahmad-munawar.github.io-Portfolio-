@@ -1,16 +1,17 @@
 ---
-layout: page
-title: Posts
+layout: post
+title: "First Post"
+date: 2026-04-03
 ---
 
-# My Posts
+Hello world! This is my first Markdown post on my portfolio blog.  
 
-{% for post in site.posts %}
-- [{{ post.title }}]({{ post.url }})
-{% endfor %}
+I can include **images** too:  
 
----
+![Sample Image](https://via.placeholder.com/150)
 
-Click **New File → _posts → YYYY-MM-DD-title.md** in GitHub to add posts directly.  
+And text formatting like **bold**, *italic*, and lists:
 
-Example: `_posts/2026-04-03-first-post.md`
+- Item 1
+- Item 2
+- Item 3
