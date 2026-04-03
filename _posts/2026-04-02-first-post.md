@@ -4,7 +4,7 @@ title: "first-post"
 date: 2026-04-02
 permalink: /first-post/
 ---
-#                                  "
+#                                  "My Failure to Focus:My ECAT Comeback Story"
 # My ECAT Journey
 This is the story of how I stayed focused and made a comeback.
 
