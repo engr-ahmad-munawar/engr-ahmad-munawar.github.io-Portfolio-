@@ -1,17 +1,12 @@
 ---
 layout: default
-title: About
+title: Home
 ---
 
-<div class="hero">
-  <h1>About Me 👨‍💻</h1>
-  <p>I am Ahmed Munawar, a <strong>Computer Engineering</strong> student passionate about coding, web development, and tech innovation.</p>
-</div>
+# Welcome to My Portfolio 🚀
 
-<h2 style="color:#ff0000;">Skills & Interests</h2>
-<ul>
-  <li>Programming: HTML, CSS, JS, Python</li>
-  <li>Web Development: Jekyll, GitHub Pages, React</li>
-  <li>Design: UI/UX, Figma</li>
-  <li>Learning: Full-stack, AI & new tech</li>
-</ul>
+Check out these sections:
+
+- [Blog](/blog)
+- [About](/about)
+- [My Journey](/journey)
