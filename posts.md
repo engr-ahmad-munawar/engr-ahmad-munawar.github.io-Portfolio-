@@ -18,9 +18,3 @@ title: Posts
 {% else %}
 No posts yet… stay tuned!
 {% endif %}
-
----
-
-To add a post:
-1. `New File → _posts → YYYY-MM-DD-title.md`
-2. Example: `_posts/2026-04-03-first-post.md`
