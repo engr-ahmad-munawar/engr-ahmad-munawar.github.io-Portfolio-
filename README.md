@@ -1,4 +1,3 @@
-# engr-ahmad-munawar.github.io
 # Ahmed Munawar Portfolio
 
 This is a personal portfolio blog built with **Jekyll** and deployed via **GitHub Pages**.  
