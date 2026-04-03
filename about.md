@@ -1,16 +1,10 @@
 ---
-layout: default
 title: About
 ---
 
-# 👤 About Me
+# About Me
 
-I am a passionate developer building projects and learning daily.
+I am a passionate developer focused on building real-world projects.
 
-## 💡 Skills
-- Programming
-- Problem Solving
-- Web Development
-
-## 🎯 Goal
-To become a top-level Computer engineer.
+- **Skills:** Web Development, Programming, Problem Solving  
+- **Goal:** Become a professional software engineer
