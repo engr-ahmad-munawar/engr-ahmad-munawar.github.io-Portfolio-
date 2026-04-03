@@ -1,12 +1,13 @@
 
 ---
-layout: post
+layout: default
 title: "From Failure to Focus: My ECAT Comeback Story"
-parmalink: /first blog/
 date: 2026-04-02
+permalink: /first-post/
 ---
 
-
+# My ECAT Journey
+This is the story of how I stayed focused and made a comeback.
 ## 🚀 Introduction
 
 Success stories often look smooth from the outside, but behind them are moments of doubt, pressure, and tough decisions. My journey with the ECAT exam was one of those experiences that tested not only my knowledge but also my mindset. It started with failure, moved through uncertainty, and ended with a result that changed my direction completely.
