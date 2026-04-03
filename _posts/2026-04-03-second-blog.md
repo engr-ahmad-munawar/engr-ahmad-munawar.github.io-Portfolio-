@@ -1,4 +1,4 @@
-YYYY-MM-DD-your-second-post-title.md
+
 ---
 layout: post
 title: "Second Blog"
