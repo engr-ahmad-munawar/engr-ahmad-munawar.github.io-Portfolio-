@@ -3,25 +3,7 @@ layout: default
 title: Blog
 ---
 
-<h1 style="color:#00bfff;">My Blog 📝</h1>
-<p>Click below to create a new post directly on GitHub:</p>
+# Blog Posts
 
-<a href="https://github.com/engr-ahmad-munawar/engr-ahmad-munawar.github.io/new/main/_posts" target="_blank">
-  <button>New Post ➕</button>
-</a>
-
-<hr>
-
-{% if site.posts.size > 0 %}
-<div class="posts-grid">
-{% for post in site.posts %}
-<div class="post-card">
-- [**{{ post.title }}**]({{ post.url }})  
-  _{{ post.date | date: "%b %-d, %Y" }}_  
-  {{ post.excerpt | truncatewords: 25 }}
-</div>
-{% endfor %}
-</div>
-{% else %}
-<p>No posts yet… stay tuned!</p>
-{% endif %}
+[Create New Post](/blog/new-post)  
+*(For GitHub Pages, posts are `.md` in `_posts/` folder)*
