@@ -5,7 +5,6 @@ title: "From Failure to Focus: My ECAT Comeback Story"
 date: 2026-04-02
 permalink: /first-post/
 ---
-
 # My ECAT Journey
 This is the story of how I stayed focused and made a comeback.
 ## 🚀 Introduction
