@@ -1,15 +1,16 @@
 ---
-layout: post
-title: "My First Post"
-date: 2026-04-03
+layout: page
+title: Posts
 ---
 
-# Welcome to My Blog
+# My Posts
 
-You can write:
-- Text
-- Images  
-  `![Sample](https://via.placeholder.com/600)`  
-- Code snippets
+{% for post in site.posts %}
+- [{{ post.title }}]({{ post.url }})
+{% endfor %}
 
-🔥 This is my first post!
+---
+
+Click **New File → _posts → YYYY-MM-DD-title.md** in GitHub to add posts directly.  
+
+Example: `_posts/2026-04-03-first-post.md`
