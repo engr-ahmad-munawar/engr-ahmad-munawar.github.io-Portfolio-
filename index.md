@@ -5,18 +5,18 @@ title: Home
 
 <div class="hero">
   <h1>Welcome to My Portfolio</h1>
-  <p>Click below to explore:</p>
+  <p>Choose a section below:</p>
 </div>
 
 <div class="projects-grid">
   <div class="project-card">
     <h3>About Me</h3>
-    <p>Who I am and my skills</p>
+    <p>Learn who I am</p>
     <a href="/about">Go →</a>
   </div>
   <div class="project-card">
     <h3>My Journey</h3>
-    <p>Uni life & learning experiences</p>
+    <p>Uni life & semesters</p>
     <a href="/journey">Go →</a>
   </div>
   <div class="project-card">
