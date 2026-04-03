@@ -1,12 +1,17 @@
-**---
+---
 layout: page
 title: My Journey
 ---
 
-My journey started in 2020, and I’ve been coding, designing, and creating ever since.  
+# My Journey 🛤️
 
-Some highlights so far:
+Started coding in 2020 and never looked back. Every bug, project, and late-night session shaped me.  
 
-- Learned HTML, CSS, JS
-- Built mini projects
-- Deployed websites on GitHub Pages**
+### Milestones
+- 2020: First HTML/CSS projects
+- 2021: Built JS mini apps
+- 2022: Learned React & Tailwind
+- 2023: Deployed multiple websites on GitHub Pages
+- 2024+: Exploring backend & full-stack solutions
+
+> “Every line of code tells a story.” – That’s my mantra.
