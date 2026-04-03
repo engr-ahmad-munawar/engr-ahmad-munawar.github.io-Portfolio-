@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "second_post"
-date: 2026-04-03
+date: 2026-04-02
 permalink: /second-post/
 ---
 
