@@ -1,22 +1,10 @@
-title: Ahmed Portfolio
-description: My Portfolio Blog
+title: Ahmed Munawar Portfolio
+email: your-email@example.com
+description: >-
+  My personal portfolio blog
+baseurl: "" 
 url: "https://engr-ahmad-munawar.github.io"
-baseurl: ""
-
-remote_theme: pages-themes/contrast
-
+theme: jekyll-theme-slate
 plugins:
   - jekyll-feed
-  - jekyll-remote-theme
-
 permalink: /:title/
-
-nav:
-  - name: Home
-    link: /
-  - name: About
-    link: /about
-  - name: My Journey
-    link: /journey
-  - name: Blog
-    link: /blog
