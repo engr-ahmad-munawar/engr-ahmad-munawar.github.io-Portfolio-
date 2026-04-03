@@ -3,7 +3,10 @@ layout: page
 title: Posts
 ---
 
-# Blog Posts 📝
+<div class="hero" style="background:#2575fc; color:#fff; padding:2rem; border-radius:15px; text-align:center;">
+  <h1>Blog Posts 📝</h1>
+  <p>Projects, tutorials, and tech musings</p>
+</div>
 
 {% if site.posts.size > 0 %}
 <div class="posts-grid">
@@ -16,5 +19,5 @@ title: Posts
 {% endfor %}
 </div>
 {% else %}
-No posts yet… stay tuned!
+<p>No posts yet… stay tuned!</p>
 {% endif %}
