@@ -7,7 +7,7 @@ permalink: /first-post/
 
 Blog content starts here...
 
-Your blog content goes here...
+title:"From Failure to Focus: My ECAT Comeback story"
 
 ## 🚀 Introduction
 
