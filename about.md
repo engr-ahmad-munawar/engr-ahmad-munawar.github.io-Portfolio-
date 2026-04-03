@@ -1,10 +1,8 @@
 ---
+layout: page
 title: About
 ---
 
-# About Me
-
-I am a passionate developer focused on building real-world projects.
-
-- **Skills:** Web Development, Programming, Problem Solving  
-- **Goal:** Become a professional software engineer
+Hi! I am **Ahmed Munawar**, a passionate web developer and tech enthusiast.  
+This is my portfolio blog built entirely with **Jekyll & Markdown**.  
+I share my projects, journey, and thoughts here.
