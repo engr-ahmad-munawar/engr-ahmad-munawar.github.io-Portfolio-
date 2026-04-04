@@ -1,13 +1,9 @@
 ---
 layout: default
-title: "second_post"
+title: "My Porgress:Moving Forward""second_post"
 date: 2026-04-02
 permalink: /second-post/
----
-
-Blog content starts here...
-
-#                                        "My Porgress:Moving Forward"
+---                                    
 
 ## 🚀 Introduction
 
