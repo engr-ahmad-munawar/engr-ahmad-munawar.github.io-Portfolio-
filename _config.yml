@@ -1,22 +1,22 @@
-# 1. Site Identity
+# Site Identity
 title: Ahmed Munawar Portfolio
 email: your-email@example.com
 description: Computer Engineering Student | Exploring Systems & Code.
 baseurl: ""
 url: "https://engr-ahmad-munawar.github.io"
 
-# 2. Navigation Menu Override (Add this part exactly!)
+# --- THE FIX: This manually sets the navigation menu ---
 header_pages:
   - about.md
   - contact.md
   - blog.md
 
-# 3. Build Settings
+# Build Settings
 theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-# 4. Technical Specifications
+# Technical Specifications
 markdown: kramdown
 highlighter: rouge
