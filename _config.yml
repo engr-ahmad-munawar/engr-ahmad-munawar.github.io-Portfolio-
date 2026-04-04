@@ -1,11 +1,11 @@
 # 1. Site Identity
 title: Ahmed Munawar Portfolio
-email: your-email@example.com # Replace with your actual email
-description: Computer Engineering Student | Exploring Systems, Hardware & Code.
-baseurl: "" # Keep this empty for your main GitHub Pages site
-url: "https://engr-ahmad-munawar.github.io" # Your updated URL based on your GitHub
+email: your-email@example.com
+description: Computer Engineering Student | Exploring Systems & Code.
+baseurl: ""
+url: "https://engr-ahmad-munawar.github.io"
 
-# 2. Navigation Control (Ensures "Contact" shows up and "Journey" is gone)
+# 2. Navigation Menu Override (Add this part exactly!)
 header_pages:
   - about.md
   - contact.md
@@ -20,11 +20,3 @@ plugins:
 # 4. Technical Specifications
 markdown: kramdown
 highlighter: rouge
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
