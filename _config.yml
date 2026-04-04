@@ -1,13 +1,30 @@
+# 1. Site Identity
 title: Ahmed Munawar Portfolio
-email: your-email@example.com
-description: My uni journey & blog
-baseurl: "" # Keep this empty if it's your main site (username.github.io)
-url: "https://ahmed-dev.github.io"
+email: your-email@example.com # Replace with your actual email
+description: Computer Engineering Student | Exploring Systems, Hardware & Code.
+baseurl: "" # Keep this empty for your main GitHub Pages site
+url: "https://engr-ahmad-munawar.github.io" # Your updated URL based on your GitHub
 
+# 2. Navigation Control (Ensures "Contact" shows up and "Journey" is gone)
+header_pages:
+  - about.md
+  - contact.md
+  - blog.md
+
+# 3. Build Settings
 theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
+# 4. Technical Specifications
 markdown: kramdown
 highlighter: rouge
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
