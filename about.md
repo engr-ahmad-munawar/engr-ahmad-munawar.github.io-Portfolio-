@@ -4,7 +4,7 @@ title: About
 ---
 
 <div class="avatar-container">
-  <img src="/_assets/images/profile.jpeg" alt="Ahmed's Avatar" class="profile-avatar">
+  <img src="{{ site.baseurl }}/assets/images/profile.png" alt="Ahmed's Avatar" class="profile-avatar">
 </div>
 
 # > System_Init: About Me 🛠️
