@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Contact
+permalink: /contact/
 ---
 
 <div class="avatar-container">
@@ -19,7 +20,6 @@ Use the links below to reach out. The system is active and ready for input.
 <div class="contact-grid">
   <a href="mailto:your-email@example.com" class="contact-btn">📧 Email Me</a>
   <a href="https://github.com/engr-ahmad-munawar" target="_blank" class="contact-btn">🐙 GitHub</a>
-  <a href="https://linkedin.com/in/your-profile" target="_blank" class="contact-btn">💼 LinkedIn</a>
 </div>
 
 ---
@@ -28,4 +28,4 @@ Use the links below to reach out. The system is active and ready for input.
 **Base:** Lahore, Pakistan 🇵🇰  
 **Status:** Available for collaboration & internships.
 
-[Return Home](/) | [View My Journey](/journey)
+[Return Home](/)
