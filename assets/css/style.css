@@ -130,6 +130,27 @@ footer {
   box-shadow: 0 0 20px rgba(0, 191, 255, 0.4); /* Neon glow effect */
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+.avatar-container {
+  display: flex;
+  justify-content: center; /* Centers the image */
+  margin-bottom: 2rem;
+}
+
+.profile-avatar {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%; /* Makes it a circle */
+  object-fit: cover; /* Ensures your face isn't stretched */
+  border: 3px solid #00bfff; /* Tech Blue border */
+  box-shadow: 0 0 15px rgba(0, 191, 255, 0.4); /* Neon Glow */
+  transition: all 0.3s ease-in-out;
+}
+
+.profile-avatar:hover {
+  transform: scale(1.1) rotate(3deg); /* Dynamic hover effect */
+  border-color: #ff3860; /* Switches to Tech Red */
+  box-shadow: 0 0 25px rgba(255, 56, 96, 0.6);
+}
 
 .profile-avatar:hover {
   transform: scale(1.05); /* Subtle zoom on hover */
