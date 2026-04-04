@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "third Blog"  
+title: "The surprise Switch:From Electrical to Computer Engineering"
 permalink: /third-blog/
 date: 2026-04-03
 ---
-#                                "The surprise Switch:From Electrical to Computer Engineering"
+#                               
 # The Day Everything Changed: 
 
 Success stories often look smooth from the outside, but behind them are moments of intense doubt, immense pressure, and tough decisions. My journey with the ECAT exam and university admission was one of those experiences that tested not only my academic knowledge but also my mindset. It started with a fear of failure, but it ended with a new sense of focus and an unexpected twist that changed my career path forever.
