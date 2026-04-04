@@ -1,22 +1,19 @@
-# Site Identity
 title: Ahmed Munawar Portfolio
 email: your-email@example.com
 description: Computer Engineering Student | Exploring Systems & Code.
 baseurl: ""
 url: "https://engr-ahmad-munawar.github.io"
 
-# --- THE FIX: This manually sets the navigation menu ---
+# THIS SECTION CONTROLS THE TOP MENU
 header_pages:
   - about.md
   - contact.md
   - blog.md
 
-# Build Settings
 theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-# Technical Specifications
 markdown: kramdown
 highlighter: rouge
