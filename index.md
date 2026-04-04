@@ -9,8 +9,10 @@ title: Home
 
 # Welcome to My Portfolio 🚀
 
-Check out these sections:
+<p>Check out these sections:</p>
 
-- [Blog](/blog)
-- [About](/about)
-- [Contact Me](/contact) 📬
+<div class="nav-button-container">
+  <a href="/blog" class="nav-btn">✍️ Blog</a>
+  <a href="/about" class="nav-btn">👨‍💻 About</a>
+  <a href="/contact" class="nav-btn">📬 Contact Me</a>
+</div>
