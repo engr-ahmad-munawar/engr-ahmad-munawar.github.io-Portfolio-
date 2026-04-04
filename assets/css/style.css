@@ -107,6 +107,7 @@ ul li a:hover {
 }
 
 /* 5. Footer Decor */
+
 footer {
   background-color: #0f111a;
   text-align: center;
@@ -157,3 +158,4 @@ footer {
   box-shadow: 0 0 30px rgba(255, 56, 96, 0.6); /* Switches to Red glow on hover */
   border-color: #ff3860;
 }
+<link rel="stylesheet" href="/assets/style.css">
