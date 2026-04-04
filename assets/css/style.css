@@ -140,11 +140,14 @@ footer {
 .profile-avatar {
   width: 160px;
   height: 160px;
-  border-radius: 50%; /* Makes it a circle */
-  object-fit: cover; /* Ensures your face isn't stretched */
-  border: 3px solid #00bfff; /* Tech Blue border */
-  box-shadow: 0 0 15px rgba(0, 191, 255, 0.4); /* Neon Glow */
+  border-radius: 50%; /* Perfect Circle */
+  object-fit: cover; /* Centers the image content */
+  border: 3px solid #00bfff; /* Tech Blue */
+  box-shadow: 0 0 15px rgba(0, 191, 255, 0.4);
   transition: all 0.3s ease-in-out;
+  display: block;
+  margin: 0 auto; /* Extra centering insurance */
+}
 }
 
 .profile-avatar:hover {
