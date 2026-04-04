@@ -13,4 +13,4 @@ Check out these sections:
 
 - [Blog](/blog)
 - [About](/about)
-- [My Journey](/journey)
+- [contact](/contact)
