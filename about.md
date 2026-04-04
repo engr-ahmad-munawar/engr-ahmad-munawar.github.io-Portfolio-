@@ -2,7 +2,6 @@
 layout: default
 title: About
 ---
-
 <div class="avatar-container">
   <img src="{{ site.baseurl }}/assets/images/profile.png" alt="Ahmed's Avatar" class="profile-avatar">
 </div>
