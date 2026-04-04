@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "My Porgress:Moving Forward""second_post"
+title: "My Porgress:Moving Forward"
 date: 2026-04-02
 permalink: /second-post/
 ---                                    
