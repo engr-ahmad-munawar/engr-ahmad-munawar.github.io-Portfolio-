@@ -115,3 +115,24 @@ footer {
   border-top: 1px solid rgba(255, 255, 255, 0.05);
   font-size: 0.9rem;
 }
+.avatar-container {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.profile-avatar {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%; /* Makes it a circle */
+  object-fit: cover;
+  border: 3px solid #00bfff; /* Blue border */
+  box-shadow: 0 0 20px rgba(0, 191, 255, 0.4); /* Neon glow effect */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-avatar:hover {
+  transform: scale(1.05); /* Subtle zoom on hover */
+  box-shadow: 0 0 30px rgba(255, 56, 96, 0.6); /* Switches to Red glow on hover */
+  border-color: #ff3860;
+}
