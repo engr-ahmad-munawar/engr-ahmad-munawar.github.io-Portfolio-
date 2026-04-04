@@ -1,10 +1,10 @@
 ---
 layout: default
-title: "first-post"
+title:  "My Failure to Focus:My ECAT Comeback Story"
 date: 2026-04-01
 permalink: /first-post/
 ---
-#                                  "My Failure to Focus:My ECAT Comeback Story"
+                           
 # My ECAT Journey
 This is the story of how I stayed focused and made a comeback.
 
