@@ -3,6 +3,10 @@ layout: default
 title: About
 ---
 
+<div class="avatar-container">
+  <img src="images/profile.jpeg" alt="Ahmed's Avatar" class="profile-avatar">
+</div>
+
 # > System_Init: About Me 🛠️
 
 Hey, I’m a **Computer Engineering** student currently navigating the intersection of hardware, software, and a lot of caffeine. 
