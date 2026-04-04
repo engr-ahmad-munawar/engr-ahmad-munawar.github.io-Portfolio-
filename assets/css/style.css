@@ -1,40 +1,116 @@
-body {
-  background-color: #121212;
-  color: #e0e0e0;
-  font-family: 'Segoe UI', sans-serif;
+/* 1. Global Reset & Smooth Scrolling */
+* {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #0f111a; /* Deeper, richer dark blue-black */
+  color: #e0e0e0;
+  font-family: 'Inter', 'Segoe UI', Roboto, sans-serif;
+  line-height: 1.6;
+}
+
+/* 2. Modern Header with Glassmorphism */
 header {
-  background-color: #1f1f1f;
-  padding: 1rem;
+  background: rgba(31, 31, 31, 0.8);
+  backdrop-filter: blur(10px); /* Blur effect for modern feel */
+  padding: 1.5rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   text-align: center;
 }
 
 nav a {
-  color: #ff3860; /* red */
-  margin: 0 1rem;
+  color: #ffffff;
+  margin: 0 1.5rem;
   text-decoration: none;
-  font-weight: bold;
-  transition: color 0.3s ease;
+  font-weight: 500;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+/* Stylish underline hover effect */
+nav a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -5px;
+  left: 0;
+  background-color: #00bfff;
+  transition: width 0.3s ease;
 }
 
 nav a:hover {
-  color: #00bfff; /* blue */
-}
-
-main {
-  padding: 2rem;
-}
-
-h1, h2, h3 {
   color: #00bfff;
 }
 
+nav a:hover::after {
+  width: 100%;
+}
+
+/* 3. Main Content Styling */
+main {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 2rem;
+  min-height: 80vh;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  background: linear-gradient(90deg, #00bfff, #ff3860);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; /* Gradient text effect */
+}
+
+h2, h3 {
+  color: #00bfff;
+  margin-top: 1.5rem;
+}
+
+/* 4. Interactive List Styling */
+ul {
+  list-style: none;
+  margin-top: 1.5rem;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+ul li a {
+  color: #ff3860;
+  text-decoration: none;
+  padding: 8px 16px;
+  border: 1px solid rgba(255, 56, 96, 0.3);
+  border-radius: 8px;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+ul li a:hover {
+  background: rgba(255, 56, 96, 0.1);
+  transform: translateX(10px); /* Subtle slide effect */
+  border-color: #ff3860;
+}
+
+/* 5. Footer Decor */
 footer {
-  background-color: #1f1f1f;
+  background-color: #0f111a;
   text-align: center;
-  padding: 1rem;
-  color: #888;
+  padding: 3rem 1rem;
+  color: #666;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  font-size: 0.9rem;
 }
